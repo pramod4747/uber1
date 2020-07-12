@@ -21,6 +21,6 @@ def predict():
 if __name__ == '__main__':
 
     #http://127.0.0.1:8888/?token=67abab6bf08e80b951d497891605a5d71be053c14b09e579
-    app.run(host='127.0.0.1', port=5000)
-    #app.run(host='0.0.0.0', port=8080)
-    #app.run(debug=True) 
+    #app.run(host='127.0.0.1', port=5000)
+    app.run(host='0.0.0.0', port=8080)
+    #app.run() 
